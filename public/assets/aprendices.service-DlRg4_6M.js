@@ -1,0 +1,1 @@
+import{a as e}from"./api-CJUQ1W3O.js";const t={listar:a=>e.get("/aprendices",{params:{status:a}}),crear:a=>e.post("/aprendices/register",a),actualizar:(a,r)=>e.put(`/aprendices/update/${a}`,r),activar:a=>e.put(`/aprendices/active/${a}`),desactivar:a=>e.put(`/aprendices/inactive/${a}`)};export{t as a};
